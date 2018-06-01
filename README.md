@@ -1,8 +1,7 @@
 # Node.js
 
-[![dockeri.co](http://dockeri.co/image/undcomercio/node-9)](https://hub.docker.com/r/undcomercio/node-9/)
+[![dockeri.co](http://dockeri.co/image/undcomercio/node)](https://hub.docker.com/r/undcomercio/node/)
 
-[![dockeri.co](http://dockeri.co/image/undcomercio/node-9-nginx)](https://hub.docker.com/r/undcomercio/node-9-nginx/)
 
 This images are based from official node-slim imagen on docker-hub.com.
 
