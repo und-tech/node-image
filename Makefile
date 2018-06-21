@@ -1,4 +1,4 @@
-NODE_9_VERSION=9.5.0
+NODE_9_VERSION=9.11.2
 
 build-node-9:
 	docker build -f ./docker/node-9/Dockerfile --build-arg NODE_9_VERSION=$(NODE_9_VERSION) -t undcomercio/node docker/node-9/
