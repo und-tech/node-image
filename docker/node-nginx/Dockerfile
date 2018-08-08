@@ -1,5 +1,7 @@
 # Main Image
-FROM undcomercio/node:9
+ARG NODE_VERSION
+
+FROM undcomercio/node:$NODE_VERSION
 
 RUN apt-get install -y nginx
 
