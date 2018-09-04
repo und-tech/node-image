@@ -13,3 +13,10 @@ build-node-nginx:
 	docker tag undcomercio/node:$(NODE_VERSION)-nginx undcomercio/node:$(XYZ_VERSION)-nginx
 	docker push undcomercio/node:$(NODE_VERSION)-nginx
 	docker push undcomercio/node:$(XYZ_VERSION)-nginx
+
+
+build-node-koa:
+	docker build -f ./docker/koa/Dockerfile --build-arg NODE_VERSION=$(XYZ_VERSION) -t undcomercio/node:$(NODE_VERSION)-koa docker/koa/
+	docker tag undcomercio/node:$(NODE_VERSION)-koa undcomercio/node:$(XYZ_VERSION)-koa
+	docker push undcomercio/node:$(NODE_VERSION)-koa
+	docker push undcomercio/node:$(XYZ_VERSION)-koa
